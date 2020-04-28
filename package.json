@@ -1,0 +1,43 @@
+{
+  "name": "testcafe-reporter-circleci-junit",
+  "version": "1.0.0",
+  "description": "jUnit TestCafe reporter plugin, for CircleCi.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rob4629/testcafe-reporter-circleci-junit.git"
+  },
+  "author": {
+    "name": "Rob Cooper"
+  },
+  "main": "lib/index",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "gulp test",
+    "publish-please": "publish-please",
+    "prepublish": "publish-please guard"
+  },
+  "keywords": [
+    "testcafe",
+    "reporter",
+    "plugin",
+    "xunit",
+    "junit",
+    "nunit"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^4.0.10",
+    "callsite-record": "^3.2.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-eslint": "^1.1.1",
+    "gulp-mocha": "^2.2.0",
+    "normalize-newline": "^1.0.2",
+    "publish-please": "^2.1.4",
+    "read-file-relative": "^1.2.0",
+    "testcafe": "0.9.0"
+  }
+}
